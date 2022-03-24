@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Prouct Catalog</title>
+</head>
+<body>
+<h1>Prouct Catalog</h1>
+<div>
+    <button ><a th:href="@{/add}"> Add Product </a></button>
+    <br>
+    <br>
+    <button><a th:href="@{/byBrand}">Search products (brand) </a></button>
+    <br>
+    <br>
+    <button><a th:href="@{/byPrice}">Search products (price) </a></button>
+    <br>
+    <br>
+    <button><a th:href="@{/viewable}">View all products </a></button>
+</div>
+</body>
+</html>
